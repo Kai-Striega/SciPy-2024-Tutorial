@@ -12,9 +12,14 @@ For maximal benefit, participants are expected to have experience writing for lo
 
 ## Long Description
 
-**Introduction (10 minutes)**
+### Tutorial Outline
 
-### Part 1: Numbers, expressions and imprecision (50 minutes)
+#### Part 0: Introduction (10 minutes)
+
+* Who am I, and why should you listen to me
+* What are numerical algorithms?
+
+#### Part 1: Numbers, expressions and imprecision (50 minutes)
 
 * From Real to Floating-Point numbers (10 minutes)
 * The IEEE-754 standard (10 minutes)
@@ -25,25 +30,19 @@ For maximal benefit, participants are expected to have experience writing for lo
 
 **Break (10 minutes)**
 
-### Part 2: Conditioning, Accuracy and Stability (50 minutes)
+#### Part 2: Conditioning, Accuracy and Stability (50 minutes)
 
-#### Conditioning
-
-* Mathematical Definitions (5 minutes)
+* Mathematical Definitions (10 minutes)
 * Absolute and relative condition numbers (5 minutes)
-* Analysis: Roots of polynomials (5 minutes)
-* Practical Exercise: Wilkinson's Polynomial (10 minutes)
-
-#### Stability and Accuracy
-
-* Mathematical Definitions (5 minutes)
 * Practical Exercise: A well conditioned (10 minutes)
 * Practical Exercise: An ill conditioned problem (10 minutes)
+* Analysis: Roots of polynomials (5 minutes)
+* Practical Exercise: Wilkinson's Polynomial (10 minutes)
 
 **Break (10 minutes)**
 
 
-### Part 3: Linear systems of equations (50 minutes)
+#### Part 3: Linear systems of equations (50 minutes)
  
 * Mathematical background (10 minutes)
 * Gaussian Elimination (5 minutes)
@@ -53,7 +52,7 @@ For maximal benefit, participants are expected to have experience writing for lo
 
 **Break (10 minutes)**
 
-### Part 4: Iterative Solutions (50 minutes)
+#### Part 4: Iterative Solutions (50 minutes)
 
 * The Jacobi Method (5 minutes)
 * Practical Exercise: Implementing the Jacobi method (10 minutes)
@@ -65,7 +64,17 @@ For maximal benefit, participants are expected to have experience writing for lo
 
 ## Setup Instructions
 
-The material is available on GitHub: https://github.com/Kai-Striega/SciPy-2024-Tutorial
+All materials are available on GitHub: https://github.com/Kai-Striega/SciPy-2024-Tutorial. 
+
+The dependencies for this tutorial are Python 3.12 and recent versions of the following packages:
+
+* NumPy
+* matplotlib
+* jupyter lab
+
+In this tutorial all the algorithms will be written from scratch, using only NumPy as an array datastructure and matplotlib for basic plotting. Jupyter Lab is required as the tutorial will be presented as a series of jupyter notebooks. Specific version of these requirements are provided.
+
+**note**: It is highly recommended for participants to work in a virtual environment 
 
 To allow reproducible builds, this tutorial uses [poetry](https://python-poetry.org/). It is expected that not all participants are familiar with or will want to use poetry. To be accessible to _all_ participants the lock file is exported into a `requirements.txt` file that is available with the repository. From here participants may install the exact requirements using pip. 
 
