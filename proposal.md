@@ -8,7 +8,7 @@ Contributors:
 
 Numerical algorithms are indispensable tools for scientists, enabling them to address complex problems, obtain approximate solutions, and gain insights into a wide range of phenomena across various disciplines. Despite their widespread use designing and implementing numerical algorithms is not a simple task and can lead to potentially catastrophic errors when not used with caution. This talk covers the foundations of designing numerical algorithms. The tutorial introduces the three pillars of accuracy, stability and efficiency when considering solutions. Understanding these basic properties of numerical algorithms should prevent the unwary from using software packages inappropriately or uncritically, and provide a foundation for devising methods for nonstandard problems. 
 
-For maximal benefit, participants are expected to have experience writing for loops and working with NumPy arrays. The necessary syntax will be introduced in the tutorial, however having some familiarity will help. No knowledge of numerical algorithms is expected. An understanding of the underlying mathematics is assumed and should be covered by anyone having taken the standard first year mathematics curriculum. However, the most important and beneficial requirement is the ability to learn new things.
+For maximal benefit, participants are expected to have experience writing basic Python and working with NumPy arrays. The necessary syntax will be introduced in the tutorial, however having some familiarity will help. No knowledge of numerical algorithms is expected. An understanding of the underlying mathematics is assumed and should be covered by anyone having taken the standard first year mathematics curriculum. However, the most important and beneficial requirement is the ability to learn new things.
 
 ## Long Description
 
@@ -18,6 +18,7 @@ For maximal benefit, participants are expected to have experience writing for lo
 
 * Who am I, and why should you listen to me
 * What are numerical algorithms?
+* Introduction to today's problem
 
 #### Part 1: Numbers, expressions and imprecision (50 minutes)
 
@@ -34,8 +35,8 @@ For maximal benefit, participants are expected to have experience writing for lo
 
 * Mathematical Definitions (10 minutes)
 * Absolute and relative condition numbers (5 minutes)
-* Practical Exercise: A well conditioned (10 minutes)
-* Practical Exercise: An ill conditioned problem (10 minutes)
+* Practical Exercise: Well conditioned problems (10 minutes)
+* Practical Exercise: Ill conditioned problems (10 minutes)
 * Analysis: Roots of polynomials (5 minutes)
 * Practical Exercise: Wilkinson's Polynomial (10 minutes)
 
