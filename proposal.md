@@ -65,24 +65,10 @@ For maximal benefit, participants are expected to have experience writing for lo
 
 ## Setup Instructions
 
-To allow reproducible builds, this tutorial uses [poetry](https://python-poetry.org/) 
-for reproducible builds. However, it is expected that not all participants are familiar
-with or will want to use poetry. To be accessible to _all_ participants the lock file is
-exported into a `requirements.txt` file that is available with the repository. From here
-participants may install the exact requirements using pip.
+The material is available on GitHub: https://github.com/Kai-Striega/SciPy-2024-Tutorial
 
-### macOS/Linux
+To allow reproducible builds, this tutorial uses [poetry](https://python-poetry.org/). It is expected that not all participants are familiar with or will want to use poetry. To be accessible to _all_ participants the lock file is exported into a `requirements.txt` file that is available with the repository. From here participants may install the exact requirements using pip. 
 
 ```shell
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
-### Windows
-
-```shell
-python -m venv venv
-venv\bin\activate
 pip install -r requirements.txt
 ```
