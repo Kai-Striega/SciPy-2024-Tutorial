@@ -6,7 +6,12 @@ Contributors:
 
 ## Short Description
 
-Numerical algorithms are indispensable tools for scientists, enabling them to address complex problems, obtain approximate solutions, and gain insights into a wide range of phenomena across various disciplines. Despite their widespread use designing and implementing numerical algorithms is not a simple task and can lead to potentially catastrophic errors when not used with caution. This talk covers the foundations of designing numerical algorithms. The tutorial introduces the three pillars of accuracy, stability and efficiency when considering solutions. Understanding these basic properties of numerical algorithms should prevent the unwary from using software packages inappropriately or uncritically, and provide a foundation for devising methods for nonstandard problems. 
+Numerical algorithms are indispensable tools for scientists, enabling them to address complex problems, obtain approximate solutions, and gain insights into a wide range of phenomena across various disciplines. *Give some highlevel flavour of some of the use cases to increase interest in the tutorial?* Despite their widespread use, designing and implementing numerical algorithms is not a simple task and can lead to potentially catastrophic errors when not used with caution. This talk covers the foundations of designing numerical algorithms. 
+
+*Maybe consider replacing the following with something to the effect of: 
+The tutorial introduces the three pillars of accuracy, stability and efficiency, with the goal of helping inexperienced users avoid using software packages incorrectly or uncritically and providing a foundation for devising methods for nonstandard real-world problems.
+Or perhaps:
+"This tutorial emphasizes the mathematical foundations of numercial algorithms, focusing on key definitions and practical exercises to help participants differentiate between well-conditioned and ill-conditioned problems."
 
 For maximal benefit, participants are expected to have experience writing for loops and working with NumPy arrays. The necessary syntax will be introduced in the tutorial, however having some familiarity will help. No knowledge of numerical algorithms is expected. An understanding of the underlying mathematics is assumed and should be covered by anyone having taken the standard first year mathematics curriculum. However, the most important and beneficial requirement is the ability to learn new things.
 
