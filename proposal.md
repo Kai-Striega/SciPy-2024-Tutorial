@@ -12,10 +12,6 @@ For maximal benefit, participants are expected to have experience writing for lo
 
 ## Long Description
 
-Numerical algorithms are indispensable tools for scientists, enabling them to address complex problems, obtain approximate solutions, and gain insights into a wide range of phenomena across various disciplines. Despite their widespread use designing and implementing numerical algorithms is not a simple task and can lead to potentially catastrophic errors when not used with caution. This talk covers the foundations of designing numerical algorithms. The tutorial introduces the three pillars of accuracy, stability and efficiency when considering solutions. Understanding these basic properties of numerical algorithms should prevent the unwary from using software packages inappropriately or uncritically, and provide a foundation for devising methods for nonstandard problems. 
-
-## Tutorial Outline
-
 **Introduction (10 minutes)**
 
 ### Part 1: Numbers, expressions and imprecision (50 minutes)
@@ -66,3 +62,27 @@ Numerical algorithms are indispensable tools for scientists, enabling them to ad
 * Successive Over Relaxation (5 minutes)
 * Practical Exercise: Adding SOR to our existing solvers (10 minutes)
 * Practical Exercise: Evaluation of our solvers (5 minutes)
+
+## Setup Instructions
+
+To allow reproducible builds, this tutorial uses [poetry](https://python-poetry.org/) 
+for reproducible builds. However, it is expected that not all participants are familiar
+with or will want to use poetry. To be accessible to _all_ participants the lock file is
+exported into a `requirements.txt` file that is available with the repository. From here
+participants may install the exact requirements using pip.
+
+### macOS/Linux
+
+```shell
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+### Windows
+
+```shell
+python -m venv venv
+venv\bin\activate
+pip install -r requirements.txt
+```
