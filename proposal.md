@@ -14,33 +14,53 @@ For maximal benefit, participants are expected to have experience writing for lo
 
 Numerical algorithms are indispensable tools for scientists, enabling them to address complex problems, obtain approximate solutions, and gain insights into a wide range of phenomena across various disciplines. Despite their widespread use designing and implementing numerical algorithms is not a simple task and can lead to potentially catastrophic errors when not used with caution. This talk covers the foundations of designing numerical algorithms. The tutorial introduces the three pillars of accuracy, stability and efficiency when considering solutions. Understanding these basic properties of numerical algorithms should prevent the unwary from using software packages inappropriately or uncritically, and provide a foundation for devising methods for nonstandard problems. 
 
+### Part 1: Numbers, expressions and imprecision (50 minutes)
 
-#### Part 1: Numbers, expressions and imprecision (50 minutes)
-
-* From Real to Floating-Point numbers
-* The IEEE-754 standard
-* Using NumPy to represent Floating-Point numbers
-* Example of Floating-Point errors
-
-**Break (10 minutes)**
-
-#### Part 2: Conditioning and Stability (50 minutes)
+* From Real to Floating-Point numbers (10 minutes)
+* The IEEE-754 standard (10 minutes)
+* Practical Exercise: Sum of Floating Point numbers (5 minutes) 
+* Using NumPy to represent Floating-Point numbers (5 minutes)
+* Practical Exercise: Polynomial Evaluation (10 minutes)
+* Practical Exercise: Finding the area of a triangle (10 minutes)
 
 **Break (10 minutes)**
 
+### Part 2: Conditioning, Accuracy and Stability (50 minutes)
 
-#### Part 3: Linear systems of equations (50 minutes)
+#### Conditioning
+
+* Mathematical Definitions (5 minutes)
+* Absolute and relative condition numbers (5 minutes)
+* Analysis: Roots of polynomials (5 minutes)
+* Practical Exercise: Wilkinson's Polynomial (10 minutes)
+
+#### Stability and Accuracy
+
+* Mathematical Definitions (5 minutes)
+* Practical Exercise: A well conditioned (10 minutes)
+* Practical Exercise: An ill conditioned problem (10 minutes)
+
+**Break (10 minutes)**
+
+
+### Part 3: Linear systems of equations (50 minutes)
  
-* Mathematical background
-* Gaussian Elimination
-* Implement Gaussian Elimination in Python
-* Problems with Gaussian elimination
+* Mathematical background (10 minutes)
+* Gaussian Elimination (5 minutes)
+* Practical Exercise: Implement Gaussian elimination (10 minutes)
+* Theoretical problems with Gaussian elimination (10 minutes)
+* Practical Exercise: Breaking Gaussian elimination (15 minutes)
 
 **Break (10 minutes)**
 
-#### Part 4: Iterative Solutions (50 minutes)
+### Part 4: Iterative Solutions (50 minutes)
 
-* The Jacobi Method
-* The Gauss-Seidel method
-* Successive Over Relaxation
-* The Conjugate Gradient Method
+* The Jacobi Method (5 minutes)
+* Practical Exercise: Implementing the Jacobi method (10 minutes)
+* The Gauss-Seidel method (5 minutes)
+* Practical Exercise: Implementing the Gauss-Seidel method (10 minutes)
+* Successive Over Relaxation (5 minutes)
+* Practical Exercise: Adding SOR to our existing solvers (10 minutes)
+* Practical Exercise: Evaluation of our solvers (5 minutes)
+
+**Break (10 minutes)**
