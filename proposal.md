@@ -70,10 +70,10 @@ All materials are available on GitHub: https://github.com/Kai-Striega/SciPy-2024
 The dependencies for this tutorial are Python 3.12 and recent versions of the following packages:
 
 * NumPy
-* matplotlib
+* plotly
 * jupyter lab
 
-In this tutorial all the algorithms will be written from scratch, using only NumPy as an array datastructure and matplotlib for basic plotting. Jupyter Lab is required as the tutorial will be presented as a series of jupyter notebooks. Specific version of these requirements are provided.
+In this tutorial all the algorithms will be written from scratch, using only NumPy as an array datastructure and plotly for basic plotting. Jupyter Lab is required as the tutorial will be presented as a series of jupyter notebooks. Specific version of these requirements are provided.
 
 **note**: It is highly recommended for participants to work in a virtual environment 
 
